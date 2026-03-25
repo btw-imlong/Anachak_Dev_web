@@ -42,43 +42,176 @@ const Dashboard = () => {
         </div>
 
         {/* Rooms Section */}
-        <div className="mt-8">
-          <h2 className="text-pink-500 font-semibold text-lg">
-            Girls' Side (A & B Sections)
-          </h2>
-          <div className="grid grid-cols-4 gap-4 mt-4">
-            <RoomCard
-              roomName="A1"
-              teacher="Ms. Sarah Johnson"
-              studentsCount={2}
-              color="bg-pink-100 text-pink-700"
-            />
-            <RoomCard
-              roomName="A2"
-              teacher="Ms. Sarah Johnson"
-              studentsCount={2}
-              color="bg-pink-100 text-pink-700"
-            />
-            {/* Add more rooms */}
+        <div className="flex-2 mb-8">
+          <div className="mt-8 flex gap-12">
+            {/* Girls' Section */}
+            <div className="flex-1">
+              <h2 className="text-pink-500 font-semibold text-xl">
+                Girls' Side (A & B Sections)
+              </h2>
+              <p className="text-gray-500 text-sm mt-1">24 rooms</p>
+              <div className="grid grid-cols-2 gap-4 mt-4">
+                <RoomCard
+                  roomName="A1"
+                  teacher="Ms. Sarah Johnson"
+                  studentsCount={2}
+                  color="bg-pink-100 text-pink-700"
+                />
+                <RoomCard
+                  roomName="A2"
+                  teacher="Ms. Sarah Johnson"
+                  studentsCount={2}
+                  color="bg-pink-100 text-pink-700"
+                />
+                <RoomCard
+                  roomName="A3"
+                  teacher="Ms. Sarah Johnson"
+                  studentsCount={2}
+                  color="bg-pink-100 text-pink-700"
+                />
+                <RoomCard
+                  roomName="A4"
+                  teacher="Ms. Sarah Johnson"
+                  studentsCount={2}
+                  color="bg-pink-100 text-pink-700"
+                />
+                <RoomCard
+                  roomName="A5"
+                  teacher="Ms. Sarah Johnson"
+                  studentsCount={2}
+                  color="bg-pink-100 text-pink-700"
+                />
+                <RoomCard
+                  roomName="A6"
+                  teacher="Ms. Sarah Johnson"
+                  studentsCount={2}
+                  color="bg-pink-100 text-pink-700"
+                />
+                <RoomCard
+                  roomName="A7"
+                  teacher="Ms. Sarah Johnson"
+                  studentsCount={2}
+                  color="bg-pink-100 text-pink-700"
+                />
+                <RoomCard
+                  roomName="A8"
+                  teacher="Ms. Sarah Johnson"
+                  studentsCount={2}
+                  color="bg-pink-100 text-pink-700"
+                />
+                <RoomCard
+                  roomName="A9"
+                  teacher="Ms. Sarah Johnson"
+                  studentsCount={2}
+                  color="bg-pink-100 text-pink-700"
+                />
+                <RoomCard
+                  roomName="A10"
+                  teacher="Ms. Sarah Johnson"
+                  studentsCount={2}
+                  color="bg-pink-100 text-pink-700"
+                />
+                {/* Add more rooms */}
+              </div>
+            </div>
+            {/* Boys' Section */}
+            <div className="flex-1">
+              <h2 className="text-blue-500 font-semibold text-xl">
+                Boys' Side (C & D Sections)
+              </h2>
+              <p className="text-gray-500 text-sm mt-1">24 rooms</p>
+              <div className="grid grid-cols-2 gap-4 mt-4">
+                <RoomCard
+                  roomName="C1"
+                  teacher="Mr. James Smith"
+                  studentsCount={2}
+                  color="bg-blue-100 text-blue-700"
+                />
+                <RoomCard
+                  roomName="C2"
+                  teacher="Mr. James Smith"
+                  studentsCount={2}
+                  color="bg-blue-100 text-blue-700"
+                />
+                <RoomCard
+                  roomName="C3"
+                  teacher="Mr. James Smith"
+                  studentsCount={2}
+                  color="bg-blue-100 text-blue-700"
+                />
+                <RoomCard
+                  roomName="C4"
+                  teacher="Mr. James Smith"
+                  studentsCount={2}
+                  color="bg-blue-100 text-blue-700"
+                />
+                <RoomCard
+                  roomName="C5"
+                  teacher="Mr. James Smith"
+                  studentsCount={2}
+                  color="bg-blue-100 text-blue-700"
+                />
+                <RoomCard
+                  roomName="C6"
+                  teacher="Mr. James Smith"
+                  studentsCount={2}
+                  color="bg-blue-100 text-blue-700"
+                />
+                <RoomCard
+                  roomName="C7"
+                  teacher="Mr. James Smith"
+                  studentsCount={2}
+                  color="bg-blue-100 text-blue-700"
+                />
+                <RoomCard
+                  roomName="C8"
+                  teacher="Mr. James Smith"
+                  studentsCount={2}
+                  color="bg-blue-100 text-blue-700"
+                />
+                <RoomCard
+                  roomName="C9"
+                  teacher="Mr. James Smith"
+                  studentsCount={2}
+                  color="bg-blue-100 text-blue-700"
+                />
+                <RoomCard
+                  roomName="C10"
+                  teacher="Mr. James Smith"
+                  studentsCount={2}
+                  color="bg-blue-100 text-blue-700"
+                />
+                {/* Add more rooms */}
+              </div>
+            </div>
           </div>
+          <div className="grid grid-cols-3 gap-6 mb-8 mt-8">
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+              <h3 className="font-bold text-gray-800 text-lg mb-4">
+                User Management
+              </h3>
+              <p className="text-gray-500 text-sm">
+                Create and manage teacher & student accounts
+              </p>
+            </div>
 
-          <h2 className="text-blue-500 font-semibold text-lg mt-6">
-            Boys' Side (C & D Sections)
-          </h2>
-          <div className="grid grid-cols-4 gap-4 mt-4">
-            <RoomCard
-              roomName="C1"
-              teacher="Mr. James Smith"
-              studentsCount={2}
-              color="bg-blue-100 text-blue-700"
-            />
-            <RoomCard
-              roomName="C2"
-              teacher="Mr. James Smith"
-              studentsCount={2}
-              color="bg-blue-100 text-blue-700"
-            />
-            {/* Add more rooms */}
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+              <h3 className="font-bold text-gray-800 text-lg mb-4">
+                Service Management
+              </h3>
+              <p className="text-gray-500 text-sm">
+                Assign and manage student service duties
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+              <h3 className="font-bold text-gray-800 text-lg mb-4">
+                Task Management
+              </h3>
+              <p className="text-gray-500 text-sm">
+                Manage weekly tasks and rotation schedules
+              </p>
+            </div>
           </div>
         </div>
       </div>
